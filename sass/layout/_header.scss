@@ -37,3 +37,27 @@
 .btn-form {
     width: 100%;
 }
+
+@media screen and (max-width: 700px) {
+    .mainheader {
+        height: 100%;
+    }
+    .mainheader-row {
+        flex-wrap: wrap;
+        padding-top: 20px; 
+    }
+    .mainheader-row-text {
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+    .mainheader-row-btn {
+        margin-top: 20px;
+    }
+    .mainheader-row-form {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+}

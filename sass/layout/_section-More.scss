@@ -9,3 +9,16 @@
 .more-row-content {
     padding-right: 40px;
 }
+
+@media screen and (max-width: 700px) {
+    .more-row {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    .more-row-content {
+        padding-right: 0;
+    }
+}

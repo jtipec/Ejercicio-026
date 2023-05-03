@@ -1,0 +1,27 @@
+// mixin @include
+.btn-light {
+    @include btn;
+    background-color: $gray-color;
+    border: none;
+    color: $white-color;
+}
+.btn-dark {
+    @include btn;
+    background-color: $primary-color;
+    border: none;
+    color: $white-color;
+}
+
+// %placehorder @extend
+// .btn-light {
+//     @extend %btn;
+//     background-color: $gray-color;
+//     border: none;
+//     color: $white-color;
+// }
+// .btn-dark {
+//     @extend %btn;
+//     background-color: $primary-color;
+//     border: none;
+//     color: $white-color;
+// }
